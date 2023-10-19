@@ -1,0 +1,40 @@
+.cart_product_container {
+  width: 400px;
+  height: 100px;
+  display: flex;
+  border-bottom: solid 1px rgba(128, 128, 128, 0.595);
+}
+
+.product_img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product_name {
+  margin-top: 20px;
+  color: gray;
+  width: 230px;
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.remove_item {
+  width: 50px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+}
+
+.remove_item button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  font-size: 22px;
+  color: red;
+}

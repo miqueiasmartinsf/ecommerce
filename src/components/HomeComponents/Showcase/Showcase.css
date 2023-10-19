@@ -1,0 +1,8 @@
+.show-case {
+  padding: 50px 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  row-gap: 50px;
+}
